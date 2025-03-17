@@ -744,3 +744,18 @@ header a:hover{
     padding: 12px;
     color:black;
 }
+.view a{
+    background:linear-gradient(to right,rgb(210, 178, 178),rgb(61, 51, 51)) ;
+    background-clip:text;
+    color:transparent;
+    font-weight:bold;
+    padding-left: 133px;
+    padding-top: 645px;
+    font-size:29px;
+}
+.view a:hover{
+    text-decoration: underline;
+}
+.now a{
+       padding-top: 45px;
+}
