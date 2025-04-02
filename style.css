@@ -744,6 +744,107 @@ header a:hover{
     padding: 12px;
     color:black;
 }
+@media(max-width:1200px){
+    html{
+        font-size:55%;
+    }
+}
+@media(max-width:991px){
+header{
+    padding:4rem 3%;
+
+}
+section{
+    padding: 10rem 3%;
+}
+.services{
+    padding: 7rem;
+}
+.contact{
+    min-height:auto;
+
+}
+footer{
+    padding: 2rem 3%;
+}
+}
+@media(max-width:760px){
+   #menu-icon{
+    display:block;
+    text-align: center;
+   }
+   .navbar{
+    position: absolute;
+    top:100%;
+    left:0;
+
+    width: 100%;
+    background:rgb(77, 70, 70);;
+    padding: 0.1rem 3%;
+    
+    box-shadow: 1.5rem 2% gray;
+    display: none;
+   }
+    .navbar.active{
+        display:block;
+        text-align: center;
+        justify-content: center;
+    } 
+    .navbar a{
+        display: block;
+        color:black;
+    }
+   
+   .home{
+    padding-top: 19rem;
+    flex-direction: row;
+   }
+   .home-content h3{
+    font-size:1.6rem;
+   }
+   .home-content h1{
+     font-size:2.6rem;
+   }
+   .social-icons img{
+width: 90vw;
+height:90vw;
+padding-top: 10px;
+}
+
+   .home{
+    padding-left: 52px;
+   }
+   .social-icons a{
+ 
+   font-size: 12px;
+   
+   }
+   
+}
+@media(max-width:417px){
+html{
+    font-size:50%;
+}
+.contacts .input-box{
+    width:100%;
+} 
+}
+.view a{
+    background:linear-gradient(to right,rgb(210, 178, 178),rgb(61, 51, 51)) ;
+    background-clip:text;
+    color:transparent;
+    font-weight:bold;
+    padding-left: 133px;
+    padding-top: 645px;
+    font-size:29px;
+}
+.view a:hover{
+    text-decoration: underline;
+}
+.now a{
+       padding-top: 45px;
+}
+
 
 
 
