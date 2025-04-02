@@ -1,4 +1,4 @@
-/*let menuIcon=document.querySelector('#menu-icon');
+let menuIcon=document.querySelector('#menu-icon');
 let navbar=document.querySelector('.navbar');
 let sections=document.querySelectorAll('.section');
 let navLinks=document.querySelectorAll('.header nav a');
@@ -13,15 +13,17 @@ window.onscroll=()=>{
 navLinks.forEach(links=>{
     links.classList.remove('active');
     document.querySelector('header nav a[href*=' + id + ']').classList.add('active')
-})
-        }
-    })
+});
+        };
+    });/*
+    let header=document.querySelector('header')*/
 }
+
 menuIcon.onclick=()=>{
-menuIcon.classList.toggle('bx-x');
+menuIcon.classList.remove('fa-xmark');
 navbar.classList.toggle('active');
-}
-*/
+};
+/*
 document.addEventListener("DOMContentLoaded", () => {
   let menuIcon = document.querySelector("#menu-icon");
   let navbar = document.querySelector(".navbar");
@@ -51,3 +53,4 @@ document.addEventListener("DOMContentLoaded", () => {
     navbar.classList.toggle("active");
   };
 });
+*/
